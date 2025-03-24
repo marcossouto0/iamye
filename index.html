@@ -15,7 +15,7 @@
     body {
       background-color: #0a0a0a;
       text-align: center;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -24,10 +24,19 @@
       color: #b3b3b3;
       font-size: 3em;
     }
+    audio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
   </style>
   <body>
     <h1>Hi, I'm YE!</h1>
-    <img src="./images.jpg" alt="YE image">
-
+    <img src="./images.jpg" alt="YE image" />
+    <audio controls autoplay>
+      <source src="onsight.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
   </body>
 </html>
